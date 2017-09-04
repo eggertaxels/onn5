@@ -1,0 +1,10 @@
+.texti {
+    color: rebeccapurple;
+}
+#raudur{
+    fill: purple;
+    stroke-width:2.85714293;
+}
+.active {
+  fill: red;
+}
