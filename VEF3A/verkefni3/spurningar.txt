@@ -1,0 +1,6 @@
+1.
+    a) Hönnunarmynstur er þegar ákveðið er fyrirfram hvernig uppbyggingin á kóðanum er í verkefni en er ekki final lausnin sem hægt er að henda í kóðann. Hönnunarmynstur er úrlausn hvernig maður á leysa vandamál í mismunandi kóða.
+    
+    b) MVC í bakenda sér aðallega um að stjórna application, í gegnum model og controller.
+  
+    c) Þegar MV* er í framenda(Client Side MVC) sér server bara um að senda gögn en client sér um að vinna úr því.
