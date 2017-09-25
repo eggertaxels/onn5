@@ -40,12 +40,12 @@ class DiceThrower:
 # -----------------------------------------------------------------------------------------------------------
 
 def main_menu():
-    print '------------------------------------------------'
-    print '1: New game'
-    print '2: Quit'
-    print '------------------------------------------------'
+    print('------------------------------------------------')
+    print('1: New game')
+    print('2: Quit')
+    print('------------------------------------------------')
 
-    user_input = int(raw_input('Enter your choice(1/2)please: '))
+    user_input = int('Enter your choice(1/2)please: ')
 
     if user_input == 1:
         return True # spilarinn vill spila leik
@@ -62,9 +62,9 @@ def dice_menu(dice_thrower):
         number_of_throws += 1              ta
         rethrowing_allowed = True
 
-        print '------------------------------------------------'
-        print user_dice     # Prentar teningana Ãºt.
-        print '------------------------------------------------'
+        print('------------------------------------------------')
+        print(user_dice)    # Prentar teningana Ãºt.
+        print('------------------------------------------------')
 
         while rethrowing_allowed:
             rethrow = raw_input('Do you want to Rethrow? Y/N: ')
@@ -76,9 +76,9 @@ def dice_menu(dice_thrower):
                 user_dice = dice_thrower.rethrow(rethrow_dice)
                 number_of_throws += 1
 
-                print '------------------------------------------------'
-                print user_dice     # prentar teningana Ãºt aftur
-                print '------------------------------------------------'
+                print('------------------------------------------------')
+                print(user_dice)     # prentar teningana Ãºt aftur
+                print('------------------------------------------------')
             else:
                 rethrowing_allowed = False
 
@@ -93,16 +93,16 @@ def dice_menu(dice_thrower):
 
 def sheet_menu(dice,yatzy_sheet):
     print_sheet(yatzy_sheet)
-    user_input = int(raw_input('Enter your choice(0 - 4)please: '))
+    user_input = int('Enter your choice(0 - 4)please: ')
     yatzy_sheet[user_input] = sum(dice)
     print_sheet(yatzy_sheet)
 
 
 def print_sheet(yatzy_sheet):
-    print '------------------------------------------------'
-    print '0: Small Row', yatzy_sheet[0]
-    print '1: Big Row',  yatzy_sheet[1]
-    print '2: Full House', yatzy_sheet[2]
-    print '3: Chance',  yatzy_sheet[3]
-    print '4: Yatzy',  yatzy_sheet[4]
-    print '------------------------------------------------'
+    print('------------------------------------------------')
+    print('0: Small Row', yatzy_sheet[0])
+    print('1: Big Row',  yatzy_sheet[1])
+    print('2: Full House', yatzy_sheet[2])
+    print('3: Chance',  yatzy_sheet[3])
+    print('4: Yatzy',  yatzy_sheet[4])
+    print('------------------------------------------------')
