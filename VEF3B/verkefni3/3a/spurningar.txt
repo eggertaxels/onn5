@@ -1,0 +1,16 @@
+Útskýrðu stuttlega eftirfarandi hugtök og hvað þau gera:
+1. WebGL  -   Það er Javascript API til að rendera gagnvirkt 3d eða 2d efni í samhæfum vefvafra án þess að fá hjálp frá plugin.
+2. GPU  -   Graphics Processing Unit, aðalega notað til að rendera 3d grafík.
+3. Rasterizing  -   Það er verkefni í að taka vector graphics mynd og umbreyta henni í raster myndaformat(pixla eða dots format).
+4. GLSL -   OpenGL Shading Language, forritunarmál sem maður notar í GPU forritum.
+5. Vertex  -   Skurðpunktar teggja eða fleiri lína í rúmfræði sem mynda horn.
+6. Primitive  -   Einföldustu geometrískru hlutar sem kerfið getur séð um.
+7. Fragment  -  Shader sem gefur pixlum lit eða texture.
+8. Pixel  -  pínu litlir punktar á skjám(símum, tölvuskjám) sem mynd það sem þú sérð.
+9. Clip	space  -  webgl program data hlaðið upp í gpu með eigin skurðpunktum sem vertex shader tekur og enduraðar þeim sem er þekkt sem clip space.
+10. View frustum - Sjónarhornið, hvaðan er horft á það sem renderað er, hversu gleitt sjónarhornið er, hversu nálægt og fleira.
+11. Z-buffering - til að stjórna hvaða objectar eru fyrir framan aðra objecta eða faldir bakvið aðra objecta. (eins og z index).
+12. Right-hand coordinate	system (RHS) - Þegar X og Y ás eru til hægri og upp.
+
+3D objectar eru gerðir úr þríhyrningum vegna þess að tölvan vinnur úr vertexunum þegar hún renderar. Mörg horn gætu mæst á sama vertex og sparar það mikið vinnuafl að vinna úr því vertexi einu sinni frekar enn fyrir hvert einasta horn. Og skiptir það máli hvernig ljós kastast frá objectum.
+
