@@ -1,0 +1,12 @@
+tíminn minn fór mikið í að lesa greinarnar: 
+Why is ARKit better than the alternatives? - https://medium.com/super-ventures-blog/why-is-arkit-better-than-the-alternatives-af8871889d6a
+How is ARCore better than ARKit? - https://medium.com/super-ventures-blog/how-is-arcore-better-than-arkit-5223e6b3e79d
+
+Þetta voru góðar greinar sem hjálpuðu mér að skilja AR Core miklu betur.
+
+En ég náði í unity og byrjaði að reyna við AR core. Og fór eftir leiðbeiningunum á google : 
+
+https://developers.google.com/ar/develop/unity/getting-started
+
+Eyddi smá tíma að setja þetta upp með hjálp frá youtube og fleira. Svo loksins náði ég að downloada réttu hlutunum og forritið átti að virka.
+Ég bara fann ekki root símans neinstaðar í tölvunni til að birta animated kalla úr myndavélinni.
